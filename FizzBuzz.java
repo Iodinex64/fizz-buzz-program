@@ -15,13 +15,13 @@ public class FizzBuzzProgram {
          
 		for (int i = start; i <= limit; i++) {
 			if (start < limit) {
-				if ((i % 3 == 0) && (i % 5 == 0)) {
+				if ((i % val0 == 0) && (i % val1 == 0)) {
 					System.out.println("Fizzbuzz");
 				}
-				else if(i % 3 == 0) {
+				else if(i % val0 == 0) {
 					System.out.println("Fizz");
 				}
-				else if(i % 5 == 0) {
+				else if(i % val1 == 0) {
 					 System.out.println("Buzz");
 				}
 				else {
